@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline-style: none;
+    box-sizing: border-box;
+    border-style: none;
+    
+}
+
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+#down {
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    border-style: none;
+background-color: #DCB114;
+position: fixed;
+bottom: 10px;
+right: 10px;
+display: none;
+}
+
+article {
+    background-color:#DCB114;
+}
+
+article ul {
+    list-style-type: none;
+}
+
+article ul li{
+    display: inline-block;
+}
+
+article span {
+    font-size: 20px;
+    text-align: center;
+}
+article span, p {
+display: inline-block;
+padding-top: 19px; 
+padding-left: 10px;
+}
+
+article p {
+    vertical-align: top;
+}
+
+.face ul li {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.face a {
+    text-decoration:  none;
+    color: #000;
+    font-size: 19px;
+}
+
+ nav {
+    padding-top: 10px;
+    background-color: #222533;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 25px;
+    margin-left: 100px;
+    padding-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+    display: inline-block;
+}
+
+nav h1 span:first-of-type{
+    color: #DCB114;
+}
+
+#const p {
+    color:#fff;
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block; 
+}
+
+nav ul li  {
+    display: inline-block;
+}
+
+#list a{
+  text-decoration: none;
+ text-align: right;
+ padding-right: 50px;
+ color: #fff;
+} 
+
+header .content{
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)),
+    url("../images/banner.jpg");
+    width:100%;
+    background-attachment: fixed;
+}
+
+.content h4 {
+    margin-top: 100px;
+    font-size: 30px;
+    color: #fff
+}
+
+#service h1{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
+   text-transform: uppercase;
+}
+
+#pro h1{
+    font-size: 53px;
+    color: #DCB114;
+    text-transform: uppercase;
+   font-weight: bolder;
+}
+
+#text p {
+ color:#fff
+}
+
+#links button{
+    border: 2px solid #DCB114;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: #000;
+    margin-bottom: 120px;
+}
+
+#links a {
+    text-decoration: none;
+    color:#DCB114;
+}
+
+.sec1{
+    padding-top:100px;
+}
+
+#company h1{
+    margin-top: 40px;
+   color:#FFC909;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+#company p {
+    padding-top: 20px;
+}
+
+.image img{
+    width: 80%;
+}
+
+#company button {
+    background-color: #FFC909;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#company a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.sec2{
+    margin-top: 100px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("../images/bg2.jpg");
+    background-attachment: fixed;
+}   
+
+#why h1{
+    font-size: 40px;
+    padding-top: 100px;
+    color: #FFC909;
+    text-transform: uppercase;
+}   
+
+#text p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.feature{
+    margin-top: 120px;
+    background-color: #4c4b469e;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+
+.feature .icon {
+    width: 100px;
+    height: 100px;
+    background-color: #FFC909;
+    border-radius: 50px;
+    position: absolute;
+    top: -60px;
+    left: 70px;
+     
+}
+
+.feature .icon img{
+    padding-left: 23px;
+    padding-top: 23px;
+}
+.feature h4 {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: #FFC909;
+}
+
+.feature p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sec3 {
+    margin-top: 80px;
+}
+
+#our h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.figure figure {
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+
+}
+
+.figure .car {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.figure .car:hover div{
+    bottom: 0px;
+}
+
+.figure .car:hover img {
+    transform: scale(1.2);
+}
+
+.figure .car img{
+    width:100%;
+    transition: 1s all;
+}
+
+.figure .car div {
+    position: absolute;
+    bottom: -90px;
+    background-color: #009688;
+    width: 100%;
+}
+
+.figure span {
+    position: absolute;
+    background-color: rgba(0,0,0, 0.5);
+    color: #fff;
+    width: 355px;
+    height: 30px;
+    bottom: 265px;
+    z-index: 1;
+    font-size: 19px; 
+    text-align: center;
+}
+
+.figure figcaption p{
+    padding-top: 30px;
+    text-align: justify;
+    color: #9E9E9E;
+    padding-right: 20px;
+}  
+
+.figure button {
+    margin-top: 30px;
+    background-color: #FFC909;
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.figure a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.sec4{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+    url("../images/bg2.jpg");
+    background-attachment: fixed;
+    margin-top: 80px;
+    width: 100%;
+}
+
+#made h1{
+    color: #fff;
+    padding-top: 100px;
+    font-weight: 700;
+}
+
+#dummy p {
+    padding-top: 15px;
+    color:white;
+    text-align: center;
+}
+
+#list ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 70px; 
+}
+
+#list ul li{
+    display: inline-block;
+
+    
+    
+}
+
+#list ul li a{
+    font-size: 12px;
+    text-transform: uppercase;
+      
+}
+
+
+.gallery img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.sec5 {
+    margin-top: 50px; 
+    background-image: url("../images/bg3.jpg");
+    width: 100%;
+}
+
+#customer h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#reviews p {
+    padding-top: 15px;
+    font-size: 20px;
+    color: #ABABAB;
+}
+
+.quote {
+    background-color: #E5E5E5;
+    margin-top: 40px;
+    position: relative;
+}
+
+.quote img{
+    padding: 20px;
+    float: left;
+}
+
+.quote p {
+    text-align: center;
+    padding:20px;
+    color: rgb(128, 121, 121);
+}
+
+.quote span:first-of-type{
+    position: absolute;
+    top:365px;
+    left: 150px;
+}
+
+.quote span:last-of-type{
+    position: absolute;
+    left: 120px;
+    bottom: -120px;
+}
+
+.quote1 {
+    background-color:#FFCB0F ;
+    margin-top: 40px;
+    position: relative;
+}
+
+.quote1 img{
+    padding: 20px;
+    float: left;
+}
+
+.quote1 p {
+    text-align: center;
+    padding:20px;
+    color: #fff;
+}
+
+.quote1 span:first-of-type{
+    position: absolute;
+    top:365px;
+    left: 130px;
+}
+
+.quote1 span:last-of-type{
+    position: absolute;
+    left: 100px;
+    bottom: -120px;
+}
+
+.quote2{
+    background-color: #E5E5E5;
+    margin-top: 40px;
+    position: relative;
+}
+
+.quote2 img{
+    padding: 20px;
+    float: left;
+}
+
+.quote2 p {
+    text-align: center;
+    padding:20px;
+    color: rgb(128, 121, 121);
+}
+
+.quote2 span:first-of-type{
+    position: absolute;
+    top:365px;
+    left: 130px;
+}
+
+.quote2 span:last-of-type{
+    position: absolute;
+    left: 100px;
+    bottom: -120px;
+}
+
+.sec6 {
+    background-color: #FEDB5D;
+    margin-top: 170px;  
+    border-bottom: 30px solid #73757E;
+}
+
+.sec6 form {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.question h4 {
+    color: #6F727F;
+    margin-top: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.question h2{
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #6F727F;
+    font-weight: 400;
+}
+
+#fn {
+    padding: 8px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+#email {
+    padding: 8px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+#ms {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 7px;
+    width: 320px;
+}
+
+#submit {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 7px;
+    background-color: #73757E;
+    color: white;
+    text-transform: uppercase;
+}
+
+.sec7 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("../images/bg2.jpg");
+    width: 100%;
+}
+
+.about h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:#fff;
+    font-weight: 500;
+}
+
+.about h4{
+    padding-top: 10px;
+    color: #FFCB0F;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about h5{
+    font-size:13px;
+    color:#fff;
+}
+
+.about p {
+    padding-top: 15px;
+    color: #fff;
+    text-align: left;
+}
+
+.about span {
+    font-size: 17px;
+    color: #000;
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: #FFC909;
+   
+}
+
+.explore h6{
+    padding-left: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:#fff;
+    font-weight: 500;
+}
+
+.explore ul li {
+    list-style-type: none;
+}
+
+.explore ul li span {
+
+    color: white;
+    font-size: 20px;
+}
+
+.explore ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.addresse h6 {
+    padding-left: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:#fff;
+    font-weight: 500;
+}
+
+.addresse h5 {
+   
+    color: #fff;
+    font-size: 15px;
+}
+.addresse span{
+    color: white;
+    
+}
